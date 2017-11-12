@@ -32,6 +32,7 @@ public class MainApplication extends Application {
         }
 
         LeakCanary.install(this);
+
         FirebaseDatabase.getInstance().setPersistenceEnabled(true);
     }
 }
